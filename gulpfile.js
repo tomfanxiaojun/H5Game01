@@ -168,10 +168,11 @@ gulp.task('clean:dist', (done) => {
 gulp.task('serve', ['styles', 'scripts', 'fonts', 'hbs'], () => {
     browserSync({
         notify: false,
-        port: 9000,
+        port: 9080,
         ghostMode: false,
         server: {
             baseDir: ['.tmp', 'src'],
+            index: "index.html",
             routes: {
                 '/node_modules': 'node_modules'
             }
