@@ -1,0 +1,59 @@
+    .game {
+        &-index {
+            background: url(../images/game_bg.png) #b4dbf7 no-repeat;
+            background-size: cover;
+        }
+        &-logo {}
+        &-home {
+            &__hide {}
+            &__name {
+                color: red;
+                margin-top: 100px;
+                font-size: 44px;
+                font-weight: 700;
+                text-align: center;
+            }
+            &__bts {
+                text-align: center;
+                margin-top: 80px;
+                a {
+                    display: inline-block;
+                    height: 48px;
+                    line-height: 48px;
+                    width: 160px;
+                    text-align: center;
+                    font-size: 32px;
+                    font-weight: 700;
+                    color: red;
+                    background: rgba(73, 78, 78, 0.8);
+                    &::hover,
+                    &::active {
+                        color: red;
+                    }
+                    animation: bt-shadow 2s infinite ease-in-out;
+                }
+                &-rule {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        &-rules {
+            position: absolute;
+            bottom: 0px;
+            left: -800px;
+            height: 84%;
+            width: 100%;
+            padding-right: 10px;
+            padding-left: 10px;
+            transition: all 600ms ease-in-out;
+            &__show {
+                left: 0;
+            }
+            &__close {
+                text-align: right;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }

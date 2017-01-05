@@ -1,18 +1,39 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-  {{>header title="Index Page"}}
+    {{>header title="Index Page"}}
 </head>
 
-<body> 
-  This is the index page.
-<!-- build:js scripts/vendor.js -->
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/jquery.cookie/jquery.cookie.js"></script> 
-<!--endbuild -->
-<!-- build:js scripts/main.js -->
-{{!-- <script src="scripts/megaMenuTab.js"></script> --}}
+<body class="game-index">
+    <section class="game-logo">
+        <img src="../images/logo.png" alt="logo">
+    </section>
+    <section class="game-home">
+        <div class="game-home__name">
+            红包欢乐抢
+        </div>
+        <div class="game-home__bts">
+            <div class="game-home__bts-rule"><a href="#">游戏规则</a></div>
+            <div class="game-home__bts-enter"><a href="#">进入游戏</a></div>
+        </div>
+    </section>
+    <section class="game-rules">
+        <div class="game-rules__title">
+        	<img src="../images/title.png " alt="title">
+        </div>
+        <div class="game-rules__close"><a href="#"><img src="../images/close-button.png " alt="close"></a></div>
+       <div class="game-home__bts">
+            <div class="game-home__bts-enter"><a href="#">开始挑战</a></div>           
+        </div>
+    </section>
+    <!-- build:js scripts/vendor.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery.cookie/jquery.cookie.js"></script>
+    <!--endbuild -->
+    <!-- build:js scripts/main.js -->
+    
+    <script src="scripts/index.js"></script> 
 </body>
 
 </html>
