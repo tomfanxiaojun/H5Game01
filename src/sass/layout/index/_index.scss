@@ -56,4 +56,21 @@
                 right: 0;
             }
         }
+        &-music {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            &__play {
+                width: 30px;
+                height: 30px;
+                background: url(../images/units-icons.png) 0 0 no-repeat;
+                display: block;
+                background-size: 94px auto;
+                float: right;
+                opacity: 0.5;
+            }
+            &__on{
+            	animation: music-play 1s infinite ease-in-out;
+            }
+        }
     }
