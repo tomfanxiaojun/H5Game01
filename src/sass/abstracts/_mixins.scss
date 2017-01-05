@@ -22,10 +22,10 @@ height:toRem(18);
     display: table-cell;
     width:10000px;
     vertical-align: middle;
-    border-left: $section-title-left-border-widht solid $level2-color;
+    // border-left: $section-title-left-border-widht solid $level2-color;
     padding-left: 26px;
     font-weight: 700;
-    color: $level1-color;
+    // color: $level1-color;
     font-size: toRem(18);
     letter-spacing: .5px;
     padding-top: 10px;
@@ -177,7 +177,7 @@ height:toRem(18);
             font-size: toRem(14);
             font-weight: bold;
             line-height: 1.45;
-            color: $hkex-blue;
+            
             float: left;
         }
     }

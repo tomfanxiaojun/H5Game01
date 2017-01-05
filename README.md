@@ -1,4 +1,4 @@
-# Front-End files for HKEX
+# Front-End files for H5 Game Demo
 
 
 ## Quick Start
