@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "H5 Demo",
+  "private": false,
+  "name": "H5Demo",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
